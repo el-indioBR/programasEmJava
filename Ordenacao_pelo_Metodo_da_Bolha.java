@@ -40,9 +40,10 @@ class Ordenacao_pelo_Metodo_da_Bolha
                 vetor[i] = vetor[i + 1];
                 vetor[i + 1] = aux;
                 troca = true;
+                Imprime_Vetor(vetor,tam);
              }
           }
-          Imprime_Vetor(vetor,tam);
+          //Imprime_Vetor(vetor,tam);
        }
     }
 }
